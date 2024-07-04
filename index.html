@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBucks Coffee Company</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="nav">
+
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="menu">
+            <p>MENU</p>
+            <p>REWARDS</p>
+            <p>GIFT CARDS</p>
+        </div>
+        <div class="left">
+            <img src="image/location.png" alt="">
+            <p>Find a store</p>
+            
+              <button style="font-family: rel;" >Sign in</button>
+              <div class="b2">
+                 <button style="font-family: rel;" >Join now</button>
+              </div>
+        </div>
+        
+    </div>
+    <div class="banner1">
+        
+        <div class="ba1">
+            <img src="image/137-92890.webp" alt="">
+            
+        </div>
+       
+            
+        <div class="ba2">
+          <h1 style="color: rgb(16, 47, 19);">Enjoy half off your first drink</h1>
+          <p style="color: rgb(37, 76, 41);">Download the app for half off a </p>
+          <p style="color: rgb(37, 76, 41);">handcrafted ddrink during your first </p>
+          <p style="color: rgb(37, 76, 41);">week.* Plus, tap into mobile ordering,</p>
+          <p style="color: rgb(37, 76, 41);">exclusice offers and so much more. </p>
+          
+          <button style="font-family: try; font-weight: bold;"  >Sign up here</button>
+        </div>
+    </div>
+
+    <div class="banner2">
+        <div class="ba_1">
+            <h1 style="color: white;">Red, white and <br> berry</h1>
+            <p>Light it up with a Summer Skies Drink, a <br>
+            berry-flavore drink made with coconutmilk <br>
+            and raspbery-flavored pearls.</p>
+        <button> Order now</button>
+        </div>
+        <div class="ba2"> <img src="image/137-92894.jpg" alt=""></div>
+    </div>
+    
+        <div class="banner3">
+            <div class="ba3"><img src="image/3.webp" alt=""></div>
+            <div class="ba_3">
+                <h1>Introducing Iced <br> Energy ​</h>
+                <p>Elevate your day with a powerful boost of <br> sugar-free energy crafted with sparkling fruit <br>flavors and iced tea.​</p>
+                    <button>Order now</button>
+                </div>
+        </div>
+
+        <div class="banner4">
+            <div class="ba_4">
+                <h1>Link accounts for <br> dreamy benefits</h1>
+                <p>Start earning more benefits, Rewards and <br> experiences when you link your Starbucks® <br> Rewards and Marriott Bonvoy® accounts.**</p>
+            <button>Link now</button>
+            </div>
+            <div class="ba2"> <img src="image/137-92716.webp" alt=""></div>
+        </div>
+
+        <div class="banner5">
+            <div class="ba5"><img src="image/5.jpg" alt=""></div>
+            <div class="ba_5">
+                <h1>Meet the Starbucks Pairings Menu​</h>
+                    <p>Crave-worthy pairings including our new, best-ever iced <br> coffee. Restrictions apply.​</p>
+                    <button>Learn more</button>
+                </div>
+        </div>
+
+        <div class="banner6">
+            <div class="ba_6">
+                <h1>Tribeca: Coffee & Conversations</h1>
+                <p>In partnership with Tribeca Festival, we’re proud to support connection through storytelling. Enjoy an uplifting chat with Midori Francis and Nicole Kang.</p>
+            <button>Watch now</button>
+            </div>
+            <div class="ba6"> <img src="image/6.webp" alt=""></div>
+        </div>
+
+        <div class="banner7">
+            <div class="ba7"><img src="image/137-92899.webp" alt=""></div>
+            <div class="ba_7">
+                <h1> Personal cups for good</h1>​
+                    <p>Your choice is a positive and responsible one—because <br>   bringing your clean reusable cup helps our planet.</p>
+                    <button>Learn more</button>
+                </div>
+        </div>
+
+        <div class="banner8">
+        <div class="ba_8">
+            <h1 style="color: white;">All the summer fun</h1>
+            <p>Sign up for texts to stay in the know on all things <br>Starbucks this summer.</p>
+        <button>Let's go!</button>
+        </div>
+        <div class="ba8"> <img src="image/8.webp" alt=""></div>
+    </div>
+        
+        
+        <div class="footer">
+            <div class="co1">
+                <p>*50% off handcrafted drink valid for 7 days from sign up, at participating stores. Must sign up via <br> promo link by July 14, 2024 to be eligible. Limit one per member. Excludes delivery orders, alcohol, <br> ready to drink and bottled beverages.</p>
+            </div>
+            <div class="co2">
+                <p>**Individuals must link loyalty program accounts to participate in offer. Members with linked <br> accounts will earn: (a) double Starbucks Rewards Stars on Qualifying Starbucks Transactions during <br> Eligible Stays at Participating Marriott Bonvoy Hotels, excluding stays at Homes & Villas by Marriott <br> Bonvoy and The Ritz-Carlton Yacht Collection, and (b) earn 100 Marriott Bonvoy Points upon <br> completion of 3 Qualifying Starbucks Transactions during Marriott Bonvoy Week. Qualifying <br> Starbucks Transactions must be made at U.S. participating Starbucks stores and exclude purchases <br> of alcoholic beverages, Starbucks Card eGifts and physical Starbucks gift. To earn Double Stars, the <br> applicable stay must qualify as an Eligible Stay at a Participating Marriott Bonvoy® Hotel under offer <br> terms and conditions. Other restrictions and exclusions apply. For full offer terms and conditions, <br> visit Starbucks.com/MarriottBonvoy. Marriott Bonvoy® and its affiliated brands and hotels are the <br> registered trademarks and/or service marks of Marriott International, Inc. and its affiliates. Used <br> under license from Marriott International, Inc.</p>
+            </div>
+            <div class="line"></div>
+            <div class="sec">
+                <div class="sec1">
+                    <div class="top">
+                      <p>About Us</p>
+                   </div>
+                   <div class="pos">
+                    <p>Our Company</p>
+                    <p>Our Coffee</p>
+                    <p>Stories and News</p>
+                    <p>Starbucks Archive</p>
+                    <p>Investor Relations</p>
+                    <p>Customer Service</p>
+                    <p>contact Us</p>
+                 </div>
+                </div>
+                <div class="sec1">
+                    <div class="top">
+                      <p>Careers</p>
+                   </div>
+                   <div class="pos">
+                    <p>Culture and Values</p>
+                    <p>Inclusion, Diversity, and Equity</p>
+                    <p>College Achievement Plan</p>
+                    <p>Alumni Community</p>
+                    <p>U.S. Careers</p>
+                    <p>International Careers</p>
+                 </div>
+                </div>
+                <div class="sec1">
+                    <div class="top">
+                      <p>Social Impact</p>
+                    </div>
+                    <div class="pos">
+                    <p>People</p>
+                    <p>Planet</p>
+                    <p>Environmental and Social Impact Reporting</p>
+                 </div>
+                    
+                </div>
+                <div class="sec1">
+                    <div class="top">
+                       <p>For Business Partners</p>
+                    </div>
+                    <div class="pos">
+                    <p>Landlord Support Center</p>
+                    <p>Suppliers</p>
+                    <p>Corporate Gift Card Sales</p>
+                    <p>Office and Foodservice Coffee</p>
+                    </div>
+                </div>
+                <div class="sec1">
+                <div class="top">
+                        <p>Order and Pick Up</p>
+                    </div>
+                    <div class="pos">
+                    <p>Order on the App</p>
+                    <p>Order on the Web</p>
+                    <p>Delivery</p>
+                    <p>Order and Pick Up Options</p>
+                    <p>Explore and Find Coffee for Home</p>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="line2"></div>
+            <div class="icon">
+                
+                 <i class="ri-spotify-fill"></i>
+                <i class="ri-facebook-circle-fill"></i>
+                 <i class="ri-pinterest-fill"></i>
+                 <i class="ri-instagram-fill"></i>
+                 <i class="ri-youtube-fill"></i>
+                 <i class="ri-twitter-fill"></i>
+                
+            </div>
+            <div class="end">
+               
+                <p>Privacy Notice</p>
+                <p> Consumer Health privacy Notice</p>
+                <p>Terms of Use</p>
+                <p>Do Not Share My Personal Information </p>
+                <p>CA Supply Chain Act</p>
+                <p>Accessibility</p>
+                <p>Cookie Preferences</p>
+            </div>
+
+            <div class="copy">
+                <p>© 2024 Starbucks Coffee Company. All rights reserved.</p>
+            </div>
+
+        </div>
+    
+</body>
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</html>
+
